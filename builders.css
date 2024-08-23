@@ -35,12 +35,12 @@ header {
   align-items: center;
 }
 
-.button-primary {
+.btn-primary {
   background-color: #FD6E0A;
   font-size: 20px;
   border: none;
   border-radius: 5px;
-  color: var(--white);
+  color: white;
   padding: 20px 25px;
 }
 .header-flex {
@@ -80,3 +80,42 @@ header {
   height: auto;
   padding: 30px 40px;
 }
+
+
+/* teams section css  */
+
+
+.display-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+main {
+  margin: 120px 0px;
+}
+
+.team-img-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) ;
+  gap: 20px;
+}
+
+.team-img-container img {
+  width: 100%; /* Ensures images fill their grid cells */
+  height: 100%; /* Ensures images fill their grid cells */
+  object-fit: cover; /* Maintains aspect ratio and covers the cell */
+}
+
+.our-features {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.feature-description {
+   width: 400px;
+}
+
+
