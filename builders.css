@@ -17,6 +17,9 @@ header {
   background-color: #FFF8F3;
 }
 
+.text-light-gray {
+  color: lightgray;
+}
 .herader-name {
     font-size: 2rem;
 }
@@ -119,3 +122,91 @@ main {
 }
 
 
+/* feature section  */
+
+.features{
+  margin-top: 130px;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+
+.feature-card {
+  background: #FFFFFF;
+  border: #FFF4E7;
+  border-radius: 8px;
+  box-shadow: 2px 8px 15px 7px;
+  margin-top: 20px ;
+  padding: 30px;
+}
+
+
+#experience-badge{
+  padding: 45px 42px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-left: -100px;
+  margin-top: -100px;
+}
+
+#experience-year{
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+
+/* fact section  */
+
+
+.section-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-top: 90px;
+}
+
+.facts-container {
+    display: flex;
+    gap: 90px;
+    margin: 60px 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.fact-card {
+  border: 2px solid  #FD6E0A ;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.display-flex{
+  display: flex;
+}
+
+
+/* Sponspors css  */
+
+
+.Sponspors-img {
+  display: flex;
+  justify-content: space-around;
+
+  margin: 60px 0px;
+}
+
+
+footer {
+
+  background-color: #FFF4E7;
+  border: 1px solid black;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 40px;
+  padding: 30px;
+
+}
